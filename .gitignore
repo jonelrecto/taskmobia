@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Builds & Output
+dist/
+client/dist/
+
+# Environment & Database
+.env
+.env.local
+prisma/*.db
+prisma/*.db-journal
+*.db
+*.db-journal
+
+# Vercel
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
