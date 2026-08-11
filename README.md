@@ -3,6 +3,7 @@
 A full-stack REST API + React UI for a digital agency to track client projects by status, priority, and timeline — now with full Authentication (Login & Register).
 
 👉 **Live Demo:** [https://taskmobia.vercel.app](https://taskmobia.vercel.app)
+📦 **GitHub Repository:** [https://github.com/jonelrecto/taskmobia](https://github.com/jonelrecto/taskmobia)
 
 ---
 
