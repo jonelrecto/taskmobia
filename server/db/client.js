@@ -1,3 +1,15 @@
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '../../.env') });
+require('dotenv').config();
+
+if (!process.env.DATABASE_URL) {
+  process.env.DATABASE_URL = 'file:./dev.db';
+}
+
+if (!process.env.JWT_SECRET) {
+  process.env.JWT_SECRET = 'projectflow-jwt-secret-dev-change-in-prod';
+}
+
 const { PrismaClient } = require('@prisma/client');
 
 let prisma;
